@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<head>
+    <title>Public Page</title>
+    <link rel="stylesheet" type="text/css" href="../resources/css/stylesN.css"/>
+</head>
+<body>
+    <section id="menu-1">
+        <div class="block_1">
+            <div class="profile-logo">
+                <img src="../resources/images/favicon.ico" width="100px"
+                     height="100px "/>
+            </div>
+            <div class="profile-img">
+                <img src="../resources/images/profile.jpg" width="100px"
+                     height="100px "/>
+            </div>
+            <div class="profile-name">
+                <p><h:outputText value="#{userController.user.name}"/></p>
+                <a>Количество столов: <span>5</span></a>
+            </div>
+        </div>
+
+        <div class="block_2">
+
+            <ul class="nav">
+                <li id="eda_fon"><a >ЕДА</a>
+                    <ul class="dropdown">
+                        <li class="peks"><a>bludo1</a></li>
+                        <li class="peks"><a>bludo2</a></li>
+                        <li class="peks"><a>bludo3</a></li>
+                    </ul>
+                </li>
+                <li id="napitki_fon"><a>НАПИТКИ</a>
+                    <h:form>
+                    <ul class="dropdown">
+                        <li>
+                            <h:commandButton styleClass="left_menu_button" image="#{resource['images/icon.png']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Капучино')}">
+                                <f:ajax execute="" render="menulist sum"/>
+                            </h:commandButton>
+                        </li>
+                        <li>
+                            <h:commandButton styleClass="left_menu_button" image="#{resource['images/klybnika.jpg']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Эспрессо')}">
+                                <f:ajax execute="@this" render="menulist sum"/>
+                            </h:commandButton>
+                        </li>
+                        <li><a>ВОДКА</a></li>
+                    </ul>
+                    </h:form>
+                </li>
+                <li id="hookah_fon"><a>КАЛЬЯН</a>
+                    <ul class="dropdown">
+                    <li><a>НА ВОДЕ</a></li>
+                    <li><a>НА МОЛОКЕ</a></li>
+                    <li><a>НА СОКЕ</a></li>
+                    <li><a>ЗАМЕНА ЧАШИ</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+    </section>
+    <section id="menu-2">
+        <div class="nomer_spiska">
+            <p>KLIENT ID</p>
+        </div>
+        <div class="spisok_zakazov">
+            <h:dataTable id="menulist" value="#{userController.order.list}" var="dr" >
+                <h:column>
+                    <f:facet name="header">
+                        <h:outputText value="Название"/>
+                    </f:facet>
+                    <h:outputText value="#{dr}"/>
+                </h:column>
+            </h:dataTable>
+            <div class="itog">
+                <p>ITOG</p>
+                <h:outputText id="sum" value="#{userController.order.sum}"/>
+            </div>
+        </div>
+
+        <div class="button-oplatit">
+            <button class="oplata">
+                ГОТОВО
+            </button>
+        </div>
+        <div class="button-oplatit">
+            <button class="oplata">
+                ПРЕДЧЕК
+            </button>
+        </div>
+        <div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>

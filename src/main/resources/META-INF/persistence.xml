@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="myPU" transaction-type="JTA">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <jta-data-source>jdbc/myDC</jta-data-source>
+        <class>com.kncorp.project.User</class>
+        <class>com.kncorp.project.Drink</class>
+        <class>com.kncorp.project.Hookah</class>
+    </persistence-unit>
+</persistence>
