@@ -83,17 +83,18 @@
                 <h:outputText id="sum" value="#{userController.order.sum}"/>
             </div>
         </div>
-
+        <h:form>
         <div class="button-oplatit">
-            <button class="oplata">
-                ГОТОВО
-            </button>
+            <h:commandButton styleClass="oplata" value="Закрыть заказ" action="#{userController.order.saveSoldItems}">
+                <f:ajax execute="@this" render="menulist sum"/>
+            </h:commandButton>
         </div>
         <div class="button-oplatit">
             <button class="oplata">
                 ПРЕДЧЕК
             </button>
         </div>
+        </h:form>
         <div>
 
         </div>

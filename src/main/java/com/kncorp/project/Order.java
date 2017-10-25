@@ -4,7 +4,9 @@ import javax.ejb.Stateful;
 import javax.inject.Inject;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by L423R on 13.09.2017.
@@ -17,10 +19,14 @@ public class Order implements Serializable {
     private DrinkEJB drinkEJB;
     @Inject
     private HookahEJB hookahEJB;
+    @Inject
+    private SaledEJB saledEJB;
 
     private List<String> list = new ArrayList<>();
+    private Map<Integer,List<String>> map = new HashMap<>();
 
     private int sum = 0;
+    private int count=1;
 
 
     public void addIntoList(String s)
@@ -45,6 +51,32 @@ public class Order implements Serializable {
     }
 
 
+    //Сохранить каждый элемент заказа в бд
+    public void saveSoldItems()
+    {
+        if (!list.isEmpty()){
+            for (String s :list) {
+                saledEJB.addSoldItem(new Saled(s.split(" ")[0]));
+            }
+        }
+
+        list.clear();
+        sum = 0;
+        count++;
+    }
+
+    //Оставить заказ открытым
+    public void leaveOpenOrder()
+    {
+        map.put(count,list);
+        count++;
+
+    }
+    //получить заказ из карты по щелчку
+    public void getOrderFromClick()
+    {
+
+    }
     public List getList() {
         return list;
     }
