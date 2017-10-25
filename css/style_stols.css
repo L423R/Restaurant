@@ -1,0 +1,47 @@
+html{
+    background: url("../img/перчик.jpg") no-repeat;
+    background-position: cover;
+    background-size: cover;
+
+}
+#stol_id{
+    width: 23%;
+    height: 150px;
+    background-color: #6e6e6e;
+    float: left;
+    margin: 40px 20px 20px 100px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: Calibri;
+    opacity: 0.5;
+    -moz-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+}
+#stol_id p{
+    padding-top: 20px;
+}
+#stol_id:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.7;
+    background-image: url("../img/hookah3.jpg");
+    background-position: center;
+}
+
+.edit-table{
+    width: 300px;
+    height: 150px;
+    background-color: #6e6e6e;
+    opacity: 0.5;
+}
+.make-table{
+    width: 300px;
+    height: 150px;
+    background-color: #6e6e6e;
+    opacity: 0.5;
+}
