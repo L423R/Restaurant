@@ -1,0 +1,148 @@
+/*
+#nav > li{
+    position:relative;
+    display:block;
+    width: 150px;
+    height: 150px;
+    background-image: url("../img/whisky_ice_cigar-wallpaper-1366x768.jpg");
+    background-position: center;
+    background-size: cover;
+    border: groove;
+}
+
+#nav>  li > a{
+    padding-top: 50%;
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    float: left;
+    text-align: center;
+}
+#nav > li>ul{
+    display: inline;
+}
+#nav > li>ul>li {
+    border: groove;
+    width: 150px;
+    height: 150px;
+
+}
+
+
+/*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
+#nav ul{
+    display:inline;
+    list-style:none;
+    position:absolute;
+    text-align: center;
+    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+    opacity:0; /* Устанавливаем начальное состояние прозрачности */
+    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+}
+#nav ul li{
+
+    padding-top:1px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+    display:inline;
+}
+#nav ul a{
+
+    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+
+    display:inline;
+}
+#nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+    left:90%; /* Приносим его обратно на экран, когда нужно */
+    opacity:1; /* Делаем непрозрачным */
+    display:inline;
+}
+#nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+    background: #000000;
+    background: rgba(0, 0, 0, 0.75); /* Выглядит полупрозрачным */
+    text-decoration:underline;
+    width: 150px;
+    height: 150px;
+    background-image: url("../img/berries_in_basket_macro-wallpaper-1366x768.jpg");
+    display:inline;
+    background-position: center;
+    background-size: cover;
+}
+
+#nav ul li {
+    float: left;
+
+}
+#nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+    text-decoration:none;
+    -webkit-transition:-webkit-transform 0.075s linear;
+    width: 150px;
+    height: 150px;
+
+}
+#nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+    background:#ffffff;
+    background:rgba(51,51,51,0.75); /* Будет полупрозрачным */
+    text-decoration:underline;
+    -moz-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+
+
+}*/
+
+
+
+
+
+
+/*------------------------------------*\
+	НАВИГАЦИЯ
+\*------------------------------------*/
+
+.nav{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+li a{
+    width: 1000px;
+}
+.nav > a{
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+}
+.nav > a:hover{
+    background-color: #2a66ad;
+    width: 100px;
+}
+.nav > li{
+    position: relative;
+    display: inline;
+    width: 100px;
+
+}
+.nav .dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    width: 100px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #fcf8e3;
+    float:left;
+    display:none;
+}
+.nav > li:hover .dropdown{
+    display: inline;
+}
+.nav .dropdown >li{
+    width: 100%;
+    height: 100px;
+}
+
+
+button{
+    display: inline;
+}
