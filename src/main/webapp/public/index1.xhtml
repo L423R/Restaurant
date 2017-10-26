@@ -2,26 +2,26 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml"
-            xmlns:h="http://xmlns.jcp.org/jsf/html"
-            xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-            xmlns:f="http://xmlns.jcp.org/jsf/core">
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
 <head>
     <title>Keeper</title>
     <link rel="stylesheet" type="text/css" href="../resources/css/styles1.css"/>
     <link rel="stylesheet" type="text/css" href="../resources/css/block.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
 </head>
 <body link="#ffffff" vlink="none" alink="none"/>
 <section id="menu-1">
     <div class="block_1">
         <div class="profile-logo">
             <img src="img/favicon.ico" width="100px"
-                 height="100px ">
+                 height="100px "/>
         </div>
         <div class="profile-img">
             <img src="img/" width="100px"
-                 height="100px ">
+                 height="100px "/>
         </div>
         <div class="profile-name">
             <p>Максим ака Месье Петух</p>
@@ -31,16 +31,19 @@
 
     <div class="block_2 ">
 
-        <div>   <h:form>
+        <div>
+            <h:form>
             <div class="menu_hookah">КАЛЬЯНЫ</div>
             <div class="container row menu_hookah__hide">
                 <div class="peks menu_hookah__back">
-                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/icon.png']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Капучино')}">
+                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/icon.png']}"
+                                     title="Кальяны" action="#{userController.order.addIntoList('drink:Капучино')}">
                         <f:ajax execute="" render="menulist sum"/>
                     </h:commandButton>
                 </div>
                 <div class="peks menu_hookah__water">
-                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/klybnika.jpg']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Эспрессо')}">
+                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/klybnika.jpg']}"
+                                     title="Кальяны" action="#{userController.order.addIntoList('drink:Эспрессо')}">
                         <f:ajax execute="@this" render="menulist sum"/>
                     </h:commandButton>
                 </div>
@@ -59,26 +62,28 @@
                 <div class="menu_foods__grape"></div>
             </div>
         </div>
-        </h:form>
+    </h:form>
 
-    </div>
+</div>
 
 
 </section>
 <section id="menu-2">
-    <div class="nomer_spiska">
-        <p>KLIENT ID</p>
+<div class="nomer_spiska">
+    <p>KLIENT ID</p>
+</div>
+<div class="spisok_zakazov">
+    <div class="spisok_zakazov__container">
+        <div class="spisok_zakazov__kek"></div>
     </div>
-    <div class="spisok_zakazov">
-        <div class="spisok_zakazov__container"><div class="spisok_zakazov__kek"></div></div>
 
-        <div class="itog">
-            <p class="spisok_zakazov__itog">ITOG:
-                <h:outputText id="sum" value="#{userController.order.sum}"/>
-            </p>
-        </div>
+    <div class="itog">
+        <p class="spisok_zakazov__itog">ITOG:
+            <h:outputText id="sum" value="#{userController.order.sum}"/>
+        </p>
     </div>
-    <h:form>
+</div>
+<h:form>
     <div class="button-oplatit">
         <button class="oplata oplata_ready">
             Сохранить
@@ -89,11 +94,11 @@
             ГОТОВО(СОХРАНИТЬ В БД)
         </button>
     </div>
-    </h:form>
+</h:form>
 </section>
 <section class="fon-stol">
 </section>
 <script src="../resources/js/jquery-3.2.1.min.js"></script>
 <script src="../resources/js/box-menu.js"></script>
-</body>
-</html>
+        </body>
+        </html>
