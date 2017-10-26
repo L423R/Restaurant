@@ -32,11 +32,19 @@
 
     <div class="block_2 ">
 
-        <div>
+        <div>   <h:form>
             <div class="menu_hookah">КАЛЬЯНЫ</div>
             <div class="container row menu_hookah__hide">
-                <div class="peks menu_hookah__back"></div>
-                <div class="peks menu_hookah__water"></div>
+                <div class="peks menu_hookah__back">
+                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/icon.png']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Капучино')}">
+                        <f:ajax execute="" render="menulist sum"/>
+                    </h:commandButton>
+                </div>
+                <div class="peks menu_hookah__water">
+                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/klybnika.jpg']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Эспрессо')}">
+                        <f:ajax execute="@this" render="menulist sum"/>
+                    </h:commandButton>
+                </div>
                 <div class="menu_hookah__milk"></div>
                 <div class="menu_hookah__grape"></div>
             </div>
@@ -52,7 +60,7 @@
                 <div class="menu_foods__grape"></div>
             </div>
         </div>
-
+        </h:form>
 
     </div>
 
