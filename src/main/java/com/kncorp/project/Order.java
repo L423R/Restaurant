@@ -28,6 +28,8 @@ public class Order implements Serializable {
     private int sum = 0;
     private int count=1;
 
+    private List<ALAH> alo = new ArrayList<>();
+
 
     public void addIntoList(String s)
     {
@@ -68,14 +70,18 @@ public class Order implements Serializable {
     //Оставить заказ открытым
     public void leaveOpenOrder()
     {
-        map.put(count,list);
+        /*map.put(count,list);
+        count++;*/
+        alo.add(new ALAH(Integer.toString(count),list));
+        list.clear();
         count++;
 
     }
     //получить заказ из карты по щелчку
-    public void getOrderFromClick()
+    public void getOrderFromClick(int index)
     {
-
+        ALAH alah = alo.get(index);
+        list = alah.getList();
     }
     public List getList() {
         return list;

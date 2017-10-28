@@ -38,8 +38,8 @@
 
             <aside class="left-sidebar">
                 <h:form>
-                    <h:panelGrid columns="3">
-                    <h:commandButton image="#{resource['images/icon.png']}" title="Напитки" action="#{mainController.setItem('drink')}">
+                    <h:panelGrid id="hh" columns="3">
+                    <h:commandButton image="#{resource['images/icon.png']}" title="Напитки" action="#{userController.method}">
                         <f:ajax execute="@this" render="menulist"/>
                     </h:commandButton>
                     <h:commandButton image="#{resource['images/icon.png']}" title="Кальяны" action="#{mainController.setItem('hookah')}">
