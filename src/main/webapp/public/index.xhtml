@@ -12,11 +12,11 @@
     <section id="menu-1">
         <div class="block_1">
             <div class="profile-logo">
-                <img src="../resources/images/favicon.ico" width="100px"
+                <img src="../resources/img/favicon.ico" width="100px"
                      height="100px "/>
             </div>
             <div class="profile-img">
-                <img src="../resources/images/profile.jpg" width="100px"
+                <img src="../resources/img/profile.jpg" width="100px"
                      height="100px "/>
             </div>
             <div class="profile-name">
@@ -39,12 +39,12 @@
                     <h:form>
                     <ul class="dropdown">
                         <li>
-                            <h:commandButton styleClass="left_menu_button" image="#{resource['images/icon.png']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Капучино')}">
+                            <h:commandButton styleClass="left_menu_button" image="#{resource['img/icon.png']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Капучино')}">
                                 <f:ajax execute="" render="menulist sum"/>
                             </h:commandButton>
                         </li>
                         <li>
-                            <h:commandButton styleClass="left_menu_button" image="#{resource['images/klybnika.jpg']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Эспрессо')}">
+                            <h:commandButton styleClass="left_menu_button" image="#{resource['img/klybnika.jpg']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Эспрессо')}">
                                 <f:ajax execute="@this" render="menulist sum"/>
                             </h:commandButton>
                         </li>
@@ -79,21 +79,21 @@
                 </h:column>
             </h:dataTable>
             <div class="itog">
-                <p>ITOG</p>
-                <h:outputText id="sum" value="#{userController.order.sum}"/>
+                <p>ITOG: <h:outputText id="sum" value="#{userController.order.sum}"/></p>
+
             </div>
         </div>
         <h:form>
-        <div class="button-oplatit">
-            <h:commandButton styleClass="oplata" value="Закрыть заказ" action="#{userController.order.saveSoldItems}">
-                <f:ajax execute="@this" render="menulist sum"/>
-            </h:commandButton>
-        </div>
-        <div class="button-oplatit">
-            <button class="oplata">
-                ПРЕДЧЕК
-            </button>
-        </div>
+            <div class="button-oplatit">
+                <button class="oplata">
+                    ГОТОВО(ОСТАВИТЬ ОТКРЫТЫМ)
+                </button>
+            </div>
+            <div class="button-oplatit">
+                 <h:commandButton styleClass="oplata" value="ПРЕДЧЕК(СОХРАНИТЬ В БД)ЗАКРЫТЬ ЗАКАЗ" action="#{userController.order.saveSoldItems}">
+                    <f:ajax execute="@this" render="menulist sum"/>
+                 </h:commandButton>
+            </div>
         </h:form>
         <div>
 
