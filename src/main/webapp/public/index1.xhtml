@@ -66,7 +66,52 @@
             </h:form>
         </div>
         <div id="ggg" class="nomer_zakaza">
+            <h:form id="forma">
+                <h:panelGrid id="panel" columns="5">
+                    <h:commandButton id="XYU"  value="#{userController.order.setTextFroButton(0)}" action="#{userController.order.reloadOrder(0)}"  >
+                        <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                       <f:ajax execute="" render="menulist sum"/>
+                    </h:commandButton>
 
+                    <h:commandButton  value="#{userController.order.setTextFroButton(1)}" action="#{userController.order.reloadOrder(1)}" >
+                        <f:ajax execute="" render="menulist sum"/>
+                    </h:commandButton>
+
+                    <h:commandButton  value="#{userController.order.setTextFroButton(2)}" >
+                        <f:ajax execute="" render="menulist"/>
+                    </h:commandButton>
+
+                    <h:commandButton  value="#{userController.order.setTextFroButton(3)}" >
+                        <f:ajax execute="" render="menulist"/>
+                    </h:commandButton>
+
+                    <h:commandButton  value="#{userController.order.setTextFroButton(4)}" >
+                        <f:ajax execute="" render="menulist"/>
+                    </h:commandButton>
+
+                    <h:commandButton  value="#{userController.order.setTextFroButton(5)}" >
+                        <f:ajax execute="" render="menulist"/>
+                    </h:commandButton>
+
+                    <h:commandButton  value="#{userController.order.setTextFroButton(6)}" >
+                        <f:ajax execute="" render="menulist"/>
+                    </h:commandButton>
+
+                    <h:commandButton  value="#{userController.order.setTextFroButton(7)}" >
+                        <f:ajax execute="" render="menulist"/>
+                    </h:commandButton>
+
+                    <h:commandButton  value="#{userController.order.setTextFroButton(8)}" >
+                        <f:ajax execute="" render="menulist"/>
+                    </h:commandButton>
+
+                    <h:commandButton  value="#{userController.order.setTextFroButton(9)}" >
+                        <f:ajax execute="" render="menulist"/>
+                    </h:commandButton>
+
+
+                </h:panelGrid>
+            </h:form>
         </div>
     </div>
 </section>

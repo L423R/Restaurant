@@ -1,6 +1,9 @@
 package com.kncorp.project;
 
 import javax.ejb.Stateful;
+import javax.faces.event.AbortProcessingException;
+import javax.faces.event.ActionEvent;
+import javax.faces.event.ActionListener;
 import javax.inject.Inject;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -21,12 +24,13 @@ public class Order implements Serializable {
     private HookahEJB hookahEJB;
     @Inject
     private SaledEJB saledEJB;
-
+    private ALAH alah;
     private List<String> list = new ArrayList<>();
     private Map<Integer,List<String>> map = new HashMap<>();
 
     private int sum = 0;
-    private int count=1;
+    private int count=10;
+    public static int id=0;
 
     private List<ALAH> alo = new ArrayList<>();
 
@@ -62,6 +66,11 @@ public class Order implements Serializable {
             }
         }
 
+        if (alah!=null)
+            if (alo.contains(alah)) {
+                alo.remove(alah);
+                alah = null;
+            }
         list.clear();
         sum = 0;
         count++;
@@ -72,17 +81,46 @@ public class Order implements Serializable {
     {
         /*map.put(count,list);
         count++;*/
-        alo.add(new ALAH(Integer.toString(count),list));
+        if (alah ==null) {
+            alah = new ALAH(Integer.toString(count), sum, list,alo.size());
+            alo.add(alah);
+            System.out.println(list.size() + "   -----------   first size " + alo.get(0));
+            System.out.println(list.size() + "   -----------   first size " + alo.get(0));
+            count++;
+
+        }else
+        {
+            System.out.println(list.size() + "   -----------   first size " + alo.get(0));
+            alah.setList(list);
+            alah.setSum(sum);
+            if (!alo.contains(alah) && alo.size()<9) {
+                alah.setNumber(Integer.toString(count));
+                alah.setSize(alo.size());
+                alo.add(alah);
+
+            }
+            System.out.println(list.size() + "   -----------   first size " + alo.get(0));
+
+        }
+        alah = null;
         list.clear();
-        count++;
+        System.out.println(list.size() + "   -----------   first size " + alo.get(0));
+        sum = 0;
 
     }
     //получить заказ из карты по щелчку
-    public void getOrderFromClick(int index)
+    public void reloadOrder(int id)
     {
-        ALAH alah = alo.get(index);
-        list = alah.getList();
+        /*int n = Integer.parseInt(id);*/
+        if (alo.size()>id) {
+            alah = alo.get(id);
+            list.clear();
+            list.addAll(alah.getList());
+            System.out.println(list.size() + "   -----------   alh size " + alah);
+            sum = alah.getSum();
+        }
     }
+
     public List getList() {
         return list;
     }
@@ -94,4 +132,27 @@ public class Order implements Serializable {
     public int getSum() {
         return sum;
     }
+
+
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public String setTextFroButton(String num)
+    {
+        int n = Integer.parseInt(num);
+        if (alo.isEmpty() || n >= alo.size())
+        {
+            return num;
+        }else return alo.get(n).getNumber();  /*return "1";*/
+
+
+    }
+
+
+
 }

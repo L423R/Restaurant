@@ -113,10 +113,26 @@ public class UserController implements Serializable {
         for (UIComponent component : children){
             String id = component.getId();
             String rendererType = component.getRendererType();
-            System.out.println("AAAAAAAAAAAAAAAAZZZZZZZZZZZIIIIIIIIIAAAAAAAATTTTTTTT {PIDAR  "+id+" ff "+rendererType);
+            if (id.equals("forma"))
+            {
+                System.out.println("ETEEEEEEEEE {"+id+"}");
+                List<UIComponent> components = component.getChildren();
+                for (UIComponent c :components)
+                {
+                    System.out.println("CHIDREN {"+c.getId()+"} "+" type - {"+c.getRendererType()+"}");
+                    if (c.getId().equals("panel"))
+                    {
+                        for (UIComponent z :c.getChildren())
+                        {
+                            System.out.println("GRANDCHILDREN {"+z.getId()+"} type {"+z.getRendererType()+"}");
+
+                        }
+                    }
+                }
+            }
+            /*System.out.println("AAAAAAAAAAAAAAAAZZZZZZZZZZZIIIIIIIIIAAAAAAAATTTTTTTT {PIDAR  "+id+" ff "+rendererType);*/
         }
 
-        HtmlPanelGrid panelGrid = new HtmlPanelGrid();
-
     }
+
 }
