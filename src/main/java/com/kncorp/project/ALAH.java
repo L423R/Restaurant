@@ -16,7 +16,6 @@ public class ALAH {
        // this.list = list;
         this.list.addAll(list);
         this.size = size;
-        generateCode();
     }
 
     public int getSize() {
@@ -25,11 +24,10 @@ public class ALAH {
 
     public void setSize(int size) {
         this.size = size;
-        generateCode();
     }
 
     public String getNumber() {
-        return number;
+        return Integer.toString(size)+"_"+number;
     }
 
     public void setNumber(String number) {
@@ -55,10 +53,10 @@ public class ALAH {
         this.sum = sum;
     }
 
-    private void generateCode()
+    /*private String generateCode()
     {
-        number = Integer.toString(size)+"_"+number;
-    }
+        return Integer.toString(size)+"_"+number;
+    }*/
 
     @Override
     public String toString() {
@@ -66,6 +64,7 @@ public class ALAH {
                 "number='" + number + '\'' +
                 ", sum=" + sum +
                 ", list=" + list +
+                ", stol=" + size +
                 ", class=" + this.hashCode() +
                 '}';
     }

@@ -31,6 +31,7 @@ public class Order implements Serializable {
     private int sum = 0;
     private int count=10;
     public static int id=0;
+    private int stol = 0;
 
     private List<ALAH> alo = new ArrayList<>();
 
@@ -82,10 +83,9 @@ public class Order implements Serializable {
         /*map.put(count,list);
         count++;*/
         if (alah ==null) {
-            alah = new ALAH(Integer.toString(count), sum, list,alo.size());
+            alah = new ALAH(Integer.toString(count), sum, list,stol);
             alo.add(alah);
-            System.out.println(list.size() + "   -----------   first size " + alo.get(0));
-            System.out.println(list.size() + "   -----------   first size " + alo.get(0));
+            System.out.println(list.size() + "   -----------   first size " + alo.get(0)+" SMOKE "+stol);
             count++;
 
         }else
@@ -93,12 +93,8 @@ public class Order implements Serializable {
             System.out.println(list.size() + "   -----------   first size " + alo.get(0));
             alah.setList(list);
             alah.setSum(sum);
-            if (!alo.contains(alah) && alo.size()<9) {
-                alah.setNumber(Integer.toString(count));
-                alah.setSize(alo.size());
-                alo.add(alah);
+            alah.setSize(stol);
 
-            }
             System.out.println(list.size() + "   -----------   first size " + alo.get(0));
 
         }
@@ -106,6 +102,7 @@ public class Order implements Serializable {
         list.clear();
         System.out.println(list.size() + "   -----------   first size " + alo.get(0));
         sum = 0;
+        stol = 0;
 
     }
     //получить заказ из карты по щелчку
@@ -116,9 +113,18 @@ public class Order implements Serializable {
             alah = alo.get(id);
             list.clear();
             list.addAll(alah.getList());
-            System.out.println(list.size() + "   -----------   alh size " + alah);
+            System.out.println(list.size() + "   -----------   alh size " + alah +" "+ stol);
             sum = alah.getSum();
+            stol = alah.getSize();
         }
+    }
+
+    public int getStol() {
+        return stol;
+    }
+
+    public void setStol(int stol) {
+        this.stol = stol;
     }
 
     public List getList() {
@@ -154,5 +160,8 @@ public class Order implements Serializable {
     }
 
 
-
+    public int ddIndex()
+    {
+        return alo.size();
+    }
 }
