@@ -1,4 +1,4 @@
 var kek = ["Яблоко", "Апельсин", "Слива"];
-function asd() {
-    return kek;
+function asd(a) {
+    alert(a)
 }

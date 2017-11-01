@@ -11,10 +11,10 @@
     <link rel="stylesheet" type="text/css" href="../resources/css/styles1.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
-    <h:outputScript name="jsf.js" library="js" target="head"/>
+    <h:outputScript name="jsf.js" library="js" target="body"/>
 
 </head>
-<body link="#ffffff" vlink="none" alink="none">
+<h:body link="#ffffff" vlink="none" alink="none">
 <section id="menu-1">
     <div class="block_1">
         <div class="profile-logo">
@@ -69,64 +69,73 @@
             <h:form id="forma">
                 <h:panelGrid id="panel" columns="5">
                     <c:if test="${userController.order.ddIndex() > 0}">
-                         <h:commandButton id="XYU"  value="#{userController.order.setTextFroButton(0)}" action="#{userController.order.reloadOrder(0)}"  >
+                         <h:commandButton value="#{userController.order.setTextFroButton(0)}" action="#{userController.order.reloadOrder(0)}"  >
                         <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
                              <f:ajax execute="text" render="menulist sum text"/>
                           </h:commandButton>
                     </c:if>
 
                     <c:if test="${userController.order.ddIndex() > 1}">
-                    <h:commandButton  value="#{userController.order.setTextFroButton(1)}" action="#{userController.order.reloadOrder(1)}" >
-                        <f:ajax execute="" render="menulist sum"/>
-                    </h:commandButton>
+                        <h:commandButton value="#{userController.order.setTextFroButton(1)}" action="#{userController.order.reloadOrder(1)}"  >
+                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                            <f:ajax execute="text" render="menulist sum text"/>
+                        </h:commandButton>
                     </c:if>
 
                     <c:if test="${userController.order.ddIndex() > 2}">
-                    <h:commandButton  value="#{userController.order.setTextFroButton(2)}" >
-                        <f:ajax execute="" render="menulist"/>
-                    </h:commandButton>
+                        <h:commandButton value="#{userController.order.setTextFroButton(2)}" action="#{userController.order.reloadOrder(2)}"  >
+                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                            <f:ajax execute="text" render="menulist sum text"/>
+                        </h:commandButton>
                     </c:if>
 
                     <c:if test="${userController.order.ddIndex() > 3}">
-                    <h:commandButton  value="#{userController.order.setTextFroButton(3)}" >
-                        <f:ajax execute="" render="menulist"/>
-                    </h:commandButton>
+                        <h:commandButton value="#{userController.order.setTextFroButton(3)}" action="#{userController.order.reloadOrder(3)}"  >
+                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                            <f:ajax execute="text" render="menulist sum text"/>
+                        </h:commandButton>
                     </c:if>
 
                     <c:if test="${userController.order.ddIndex() > 4}">
-                    <h:commandButton  value="#{userController.order.setTextFroButton(4)}" >
-                        <f:ajax execute="" render="menulist"/>
-                    </h:commandButton>
+                        <h:commandButton value="#{userController.order.setTextFroButton(4)}" action="#{userController.order.reloadOrder(4)}"  >
+                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                            <f:ajax execute="text" render="menulist sum text"/>
+                        </h:commandButton>
                     </c:if>
 
                     <c:if test="${userController.order.ddIndex() > 5}">
-                    <h:commandButton  value="#{userController.order.setTextFroButton(5)}" >
-                        <f:ajax execute="" render="menulist"/>
-                    </h:commandButton>
+                        <h:commandButton value="#{userController.order.setTextFroButton(5)}" action="#{userController.order.reloadOrder(5)}"  >
+                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                            <f:ajax execute="text" render="menulist sum text"/>
+                        </h:commandButton>
                     </c:if>
 
                     <c:if test="${userController.order.ddIndex() > 6}">
-                    <h:commandButton  value="#{userController.order.setTextFroButton(6)}" >
-                        <f:ajax execute="" render="menulist"/>
-                    </h:commandButton>
+                        <h:commandButton value="#{userController.order.setTextFroButton(6)}" action="#{userController.order.reloadOrder(6)}"  >
+                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                            <f:ajax execute="text" render="menulist sum text"/>
+                        </h:commandButton>
                     </c:if>
 
                     <c:if test="${userController.order.ddIndex() > 7}">
-                    <h:commandButton  value="#{userController.order.setTextFroButton(7)}" >
-                        <f:ajax execute="" render="menulist"/>
-                    </h:commandButton>
+                        <h:commandButton value="#{userController.order.setTextFroButton(7)}" action="#{userController.order.reloadOrder(7)}"  >
+                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                            <f:ajax execute="text" render="menulist sum text"/>
+                        </h:commandButton>
                     </c:if>
 
                     <c:if test="${userController.order.ddIndex() > 8}">
-                    <h:commandButton  value="#{userController.order.setTextFroButton(8)}" >
-                        <f:ajax execute="" render="menulist"/>
-                    </h:commandButton>
+                        <h:commandButton value="#{userController.order.setTextFroButton(8)}" action="#{userController.order.reloadOrder(8)}"  >
+                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                            <f:ajax execute="text" render="menulist sum text"/>
+                        </h:commandButton>
                     </c:if>
 
                     <c:if test="${userController.order.ddIndex() > 9}">
-                    <h:commandButton  value="#{userController.order.setTextFroButton(9)}" >
-                        <f:ajax execute="" render="menulist"/>
-                    </h:commandButton>
+                        <h:commandButton value="#{userController.order.setTextFroButton(9)}" action="#{userController.order.reloadOrder(9)}"  >
+                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                            <f:ajax execute="text" render="menulist sum text"/>
+                        </h:commandButton>
                     </c:if>
 
                 </h:panelGrid>
@@ -178,11 +187,12 @@
 
 <h:form>
     <c:if test="#{userController.order.stol == 0}">
+
     <h:inputText id="text" value="#{userController.order.stol}" />
     </c:if>
     <div class="button-oplatit">
-        <h:commandButton styleClass="oplata oplata_ready" value="ОСТАВИТЬ ОТКРЫТЫМ" action="#{userController.order.leaveOpenOrder}">
-            <f:ajax execute="@all" render="menulist sum text"/>
+        <h:commandButton styleClass="oplata oplata_ready" value="ОСТАВИТЬ ОТКРЫТЫМ" action="#{userController.order.leaveOpenOrder}" onclick="asd(text.value())">
+            <f:ajax execute="@form" render="menulist sum text"/>
         </h:commandButton>
     </div>
     <div class="button-oplatit">
@@ -194,5 +204,5 @@
 </section>
 <section class="fon-stol">
 </section>
-</body>
+</h:body>
 </html>
