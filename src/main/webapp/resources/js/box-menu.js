@@ -1,13 +1,10 @@
 /**
  * Created by Nguenchik on 15.10.2017.
  */
-$(window).on('load', function(){
-    var zalupoa = [];
+$(document).ready(function () {
     var hookaHide = (".menu_hookah__hide");
     var drinksHide = (".menu_drinks__hide");
     var foodsHide = (".menu_foods__hide");
-
-
     $(hookaHide).hide();
     $(drinksHide).hide();
     $(foodsHide).hide();
@@ -47,29 +44,23 @@ $(window).on('load', function(){
     });
 
 
-     $('.menu_hookah__water').on('click', function () {
-         $('.spisok_zakazov__kek').append("<p>Кальян на воде</p>");
-         zalupoa.push('Кальян на воде');
-         alert(zalupoa);
-     });
-
-     $('.menu_hookah__milk').on('click', function () {
-         $('.spisok_zakazov__kek').append("<p>Кальян на молоке</p> ");
-     });
-
-     $('menu_hookah__grape').on('click', function () {
-         $('.spisok_zakazov__kek').append("<p>Кальян на грейпфруте</p>");
-     });
-
+    $('.menu_hookah__water').on('click', function () {
+        $('.spisok_zakazov__kek').append("<p>Кальян на воде</p>");
+    });
+    $('.menu_hookah__milk').on('click', function () {
+        $('.spisok_zakazov__kek').append("<p>Кальян на молоке</p> ");
+    });
+    $('menu_hookah__grape').on('click', function () {
+        $('.spisok_zakazov__kek').append("<p>Кальян на грейпфруте</p>");
+    });
     $('.oplata_ready').on('click' , function () {
         var money;
         money = prompt("Вы уверены? (да или нет)");
         if(money === 'да'){
             document.location.href = "stols.html";
         }else{
-            return 5;
+            return;
         }
     });
 
 });
-

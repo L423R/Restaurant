@@ -4,7 +4,7 @@
 }
 
 html {
-    /*background-image: url("../img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg");*/
+    background-image: url("../img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg");
     min-height: 700px;
     background-attachment: fixed;
     background-position: center;
@@ -74,8 +74,8 @@ html {
 }
 
 .menu_drinks, .menu_foods, .menu_hookah, .menu_hookah__grape, .menu_hookah__milk, .menu_hookah__water, .menu_hookah__back,.menu_drinks__back,.menu_foods__back,.menu_drinks__grape,.menu_foods__grape {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: #636364;
     text-align: center;
 }
@@ -139,7 +139,7 @@ html {
     transition: all 1s ease;
 }
 .menu_foods__grape{
-    /*background-image: url("../img/foods.jpg");*/
+    background-image: url("../img/foods.jpg");
     background-position: center;
     background-size: cover; -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -208,25 +208,6 @@ html {
 .spisok_zakazov__container{
     min-height: 50vh;
 }
-.table_nomer{
-    min-height: 100px;
-    text-align: center;
-}
-.koks{
-    text-align: center;
-}
-.table_nomer div{
-    border: 1px solid #fff;
-}
-.nomer_zakaza div{
-    width: 100px;
-    height: 100px;
-    float: left;
-    background-color: #000;
-    text-align: center;
-    color: #fff;
-    border: #fff solid 1px;
 
-}
 
 
