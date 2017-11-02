@@ -4,7 +4,7 @@
 }
 
 html {
-    background-image: url("../img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg");
+    /*background-image: url("../img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg");*/
     min-height: 700px;
     background-attachment: fixed;
     background-position: center;
@@ -139,7 +139,7 @@ html {
     transition: all 1s ease;
 }
 .menu_foods__grape{
-    background-image: url("../img/foods.jpg");
+    /*background-image: url("../img/foods.jpg");*/
     background-position: center;
     background-size: cover; -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;

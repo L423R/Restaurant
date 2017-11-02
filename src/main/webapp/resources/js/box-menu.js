@@ -1,11 +1,13 @@
 /**
  * Created by Nguenchik on 15.10.2017.
  */
-$(function () {
+$(window).on('load', function(){
     var zalupoa = [];
     var hookaHide = (".menu_hookah__hide");
     var drinksHide = (".menu_drinks__hide");
     var foodsHide = (".menu_foods__hide");
+
+
     $(hookaHide).hide();
     $(drinksHide).hide();
     $(foodsHide).hide();
@@ -50,12 +52,15 @@ $(function () {
          zalupoa.push('Кальян на воде');
          alert(zalupoa);
      });
+
      $('.menu_hookah__milk').on('click', function () {
          $('.spisok_zakazov__kek').append("<p>Кальян на молоке</p> ");
      });
+
      $('menu_hookah__grape').on('click', function () {
          $('.spisok_zakazov__kek').append("<p>Кальян на грейпфруте</p>");
      });
+
     $('.oplata_ready').on('click' , function () {
         var money;
         money = prompt("Вы уверены? (да или нет)");
