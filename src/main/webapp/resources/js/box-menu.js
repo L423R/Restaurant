@@ -47,10 +47,9 @@ $(window).on('load', function(){
     });
 
 
-     $('.menu_hookah__water').on('click', function () {
+     /*$('.menu_hookah__water').on('click', function () {
          $('.spisok_zakazov__kek').append("<p>Кальян на воде</p>");
-         zalupoa.push('Кальян на воде');
-         alert(zalupoa);
+
      });
 
      $('.menu_hookah__milk').on('click', function () {
@@ -59,9 +58,9 @@ $(window).on('load', function(){
 
      $('menu_hookah__grape').on('click', function () {
          $('.spisok_zakazov__kek').append("<p>Кальян на грейпфруте</p>");
-     });
+     });*/
 
-    $('.oplata_ready').on('click' , function () {
+    /*$('.oplata_ready').on('click' , function () {
         var money;
         money = prompt("Вы уверены? (да или нет)");
         if(money === 'да'){
@@ -69,7 +68,7 @@ $(window).on('load', function(){
         }else{
             return 5;
         }
-    });
+    });*/
 
 });
 

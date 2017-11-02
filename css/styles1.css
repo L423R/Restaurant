@@ -16,13 +16,13 @@ html {
 Блок слева и справа
 
 */
-#menu-1 {
+.menu-1 {
     float: left;
     width: 68%;
     border: solid;
 }
 
-#menu-2 {
+.menu-2 {
     float: right;
     width: 30%;
     border: solid;
@@ -62,7 +62,7 @@ html {
     background-color: rgba(0, 0, 0, 0.65);
     border: groove;
     height: 520px;
-    width: 100%;
+    width: 70%;
 }
 
 /*------------------------------------*\
