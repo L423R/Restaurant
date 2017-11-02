@@ -1,6 +1,3 @@
-/**
- * Created by {Nguenchik} on 02.11.2017.
- */
 $(document).ready(function () {
 
     $('.hide-menu_1').hide();

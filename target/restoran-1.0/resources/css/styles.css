@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+}
+.fon-stol {
+    /* The image used */
+background-image: url("../img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg");
+    /* Set a specific height */
+    min-height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*
+Блок слева и справа
+
+*/
+#menu-1{
+    float: left;
+    width: 68%;
+    border: solid;
+}
+#menu-2{
+    float: right;
+    width: 30%;
+    border: solid;
+}
+/* блок официанта >>>> */
+.block_1{
+    height: 100px;
+}
+.profile-logo {
+    float: left;
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100px;
+    height: 100px;
+}
+.profile-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #ffffff;
+}
+.profile-name{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+/* <<< блок официанта */
+.block_2{
+    background-color: rgba(0, 0, 0, 0.65);
+    border: groove;
+    height: 520px;
+    width: 100%;
+}
+
+
+/*------------------------------------*\
+	НАВИГАЦИЯ
+\*------------------------------------*/
+
+.nav{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+ul a{
+color: #ffffff;
+
+}
+
+.nav > li{
+    position: relative;
+    display: block;
+    height: 170px;
+    vertical-align: bottom;
+    width:170px;
+    background-color: #2a66ad;
+    text-align: center;
+}
+#napitki_fon button{
+    width: 100px;
+    height: 100px;
+}
+#eda_fon{
+    background-image: url("../img/berries_in_basket_macro-wallpaper-1366x768.jpg");
+    background-position: center;
+    background-size: cover; -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+#napitki_fon{
+    background-image: url("../img/whisky_ice_cigar-wallpaper-1366x768.jpg");
+    background-position: center;
+    background-size: cover; -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#hookah_fon{
+    background-image: url("../img/hookah2.jpg");
+    background-position: center;
+    background-size: cover; -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.nav .dropdown >li:hover{
+    opacity: 1;
+    background-color: violet;
+    background-image: url("../img/strawberry_splash_2-wallpaper-1366x768.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.nav .dropdown{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    width: 900px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:none;
+}
+.nav > #eda_fon:hover{
+    opacity: 0.7;
+}
+#napitki_fon:hover{
+    opacity: 0.7;
+}
+#hookah_fon:hover{
+    opacity: 0.7;
+}
+
+.nav > li:hover .dropdown{
+     display: flex;
+     background-color: none;
+     opacity: 1;
+ }
+
+
+.nav .dropdown >li{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    opacity: 1;
+}
+
+/* секция 2*/
+.oplata{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+.nomer_spiska{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    border: groove;
+    color: #ffffff;
+}
+.spisok_zakazov{
+    width: 100%;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border: groove;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+/*
+.spisok_menu{
+    background-color: #2a66ad;
+}
+.spisok_menu >ul > li{
+    position: relative;
+    display: block;
+    list-style:none;
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    float: left;
+    border: groove;
+    border-color: #000000;
+}
+.spisok_menu >ul > li > ul > li{
+    width: 150px;
+    height: 150px;
+}
+
+.menu-poisk{
+    width: 50%;
+}
+.dropdown{
+    position: absolute;
+    background-color: #6e6e6e;
+}
+.dropdown li{
+    list-style:none;
+    width: 170px;
+    height: 170px;
+    background-color: #ffffff;
+    float: left;
+    border: groove;
+    border-color: #000000;
+}
+*/
+
+/* footer >>>*/
+.dark-footer {
+    background: linear-gradient(to top right, #000000 0%, #383838 36%, #28343b 100%);
+    height:300px;
+    text-align: center;
+    color: #ffffff;
+}
+.dark-footer h2{
+    font-size: 20px;
+
+    padding-top: 15%;
+}
+
+.color-footer{
+    background: linear-gradient(to top right, #2a66ad 0%, #3875ad 36%, #0117ad 100%);
+    height: 120px;
+    text-align: center;
+
+}
+.color-footer p{
+font-size: 15px;
+    color: #ffffff;
+    padding-top: 5%;
+}
+
+/* Стили формы */
+#application {
+    width: 32%;
+    float: left;
+}
+input {outline:none;}
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 50%;
+    height: 43px;
+    background: none;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    border-radius: 42px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+/*Стили полей при клике по ним*/
+#applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus {
+    border: 1px solid #469dad;
+}
+
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #efefef;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+::-moz-placeholder  {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+
+:-moz-placeholder {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+::placeholder {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #3875ad;
+    border: none;
+    width: 50%;
+    height: 73px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+
+}
+.applicationButton:hover {
+    background: #d68c18;
+}
+#sitemap {
+    width: 33%;
+    font-family: "Calibri";
+    float: left;
+    border-right: groove;
+}
+
+#sitemap h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: "Calibri";
+}
+#sitemap a {
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#sitemap2 {
+
+
+    border-left: groove;
+    width: 33%;
+    font-family: "Calibri";wq
+    float: right;
+}
+#sitemap2 h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#sitemap2 a {
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
