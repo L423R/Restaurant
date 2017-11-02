@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <h:outputStylesheet name="css/style.css"/>
+</h:head>
+<h:body>
+    <div class="wrapper">
+
+        <header class="header">
+            ГОЛОВА
+        </header><!-- .header-->
+
+        <div class="middle">
+
+            <div class="container">
+                <main class="content">
+                    <h:dataTable id="menulist" value="#{mainController.getMenuList()}" var="dr" border="1">
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="Название"/>
+                            </f:facet>
+                            <h:outputText value="#{dr.name}"/>
+                        </h:column>
+
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="Цена"/>
+                            </f:facet>
+                            <h:outputText value="#{dr.price}"/>
+                        </h:column>
+                    </h:dataTable>
+                </main><!-- .content -->
+            </div><!-- .container-->
+
+            <aside class="left-sidebar">
+                <h:form>
+                    <h:panelGrid columns="3">
+                    <h:commandButton image="#{resource['img/icon.png']}" title="Напитки" action="#{mainController.setItem('drink')}">
+                        <f:ajax execute="@this" render="menulist"/>
+                    </h:commandButton>
+                    <h:commandButton image="#{resource['img/icon.png']}" title="Кальяны" action="#{mainController.setItem('hookah')}">
+                        <f:ajax execute="" render="menulist"/>
+                    </h:commandButton>
+                    </h:panelGrid>
+                </h:form>
+            </aside><!-- .left-sidebar -->
+
+            <aside class="right-sidebar">
+                ПРАВАЯ ПАНЕЛЬ
+            </aside><!-- .right-sidebar -->
+
+        </div><!-- .middle-->
+
+    </div><!-- .wrapper -->
+
+    <footer class="footer">
+        ФУТЕР
+    </footer><!-- .footer -->
+</h:body>
+</html>

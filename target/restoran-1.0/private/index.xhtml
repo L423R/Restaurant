@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>Private Page</title>
+    <h:outputStylesheet name="css/admin.css"/>
+
+</h:head>
+<h:body>
+    <h:form>
+        <h:commandButton action="#{userController.singout}" value="Logout"/>
+    </h:form>
+    <h3>Привет #{userController.user.name}</h3>
+
+
+    <h:panelGroup layout="block" styleClass="menu_1">
+        <h1>Привет</h1>
+        <h:panelGroup layout="block" styleClass="hide-menu_1">
+            <p>kek</p>
+        </h:panelGroup>
+    </h:panelGroup>
+    <h:panelGroup layout="block" styleClass="menu_2">
+        <h1>Привет</h1>
+        <h:panelGroup layout="block" styleClass="hide-menu_2">
+            <p>kek</p>
+        </h:panelGroup>
+    </h:panelGroup>
+    <h:panelGroup layout="block" styleClass="menu_3">
+        <h1>Привет</h1>
+        <h:panelGroup layout="block" styleClass="hide-menu_3">
+            <p>kek</p>
+        </h:panelGroup>
+    </h:panelGroup>
+    <h:outputScript name="js/jquery-3.2.1.min.js"/>
+    <h:outputScript name="js/admin.js"/>
+</h:body>
+</html>
