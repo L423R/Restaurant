@@ -1,16 +1,9 @@
 package com.kncorp.project;
 
-import com.sun.xml.internal.ws.client.RequestContext;
-
 import javax.enterprise.context.SessionScoped;
 import javax.faces.application.FacesMessage;
-import javax.faces.bean.ManagedBean;
 import javax.faces.component.UIComponent;
-import javax.faces.component.html.HtmlPanelGrid;
 import javax.faces.context.FacesContext;
-import javax.faces.event.AbortProcessingException;
-import javax.faces.event.ActionEvent;
-import javax.faces.event.ActionListener;
 import javax.inject.Inject;
 import javax.inject.Named;
 import javax.servlet.ServletException;
@@ -27,7 +20,7 @@ public class UserController implements Serializable {
     private UserEJB userEJB;
 
     @Inject
-    private Order order;
+    private OrderEJB orderEJB;
 
 
     private String login;
@@ -96,15 +89,15 @@ public class UserController implements Serializable {
         return user;
     }
 
-    public Order getOrder() {
-        return order;
+    public OrderEJB getOrderEJB() {
+        return orderEJB;
     }
 
-    public void setOrder(Order order) {
-        this.order = order;
+    public void setOrderEJB(OrderEJB orderEJB) {
+        this.orderEJB = orderEJB;
     }
 
-    public void method()
+    /*public void method()
     {
 
         FacesContext currentInstance = FacesContext.getCurrentInstance();
@@ -130,9 +123,9 @@ public class UserController implements Serializable {
                     }
                 }
             }
-            /*System.out.println("AAAAAAAAAAAAAAAAZZZZZZZZZZZIIIIIIIIIAAAAAAAATTTTTTTT {PIDAR  "+id+" ff "+rendererType);*/
+            *//*System.out.println("AAAAAAAAAAAAAAAAZZZZZZZZZZZIIIIIIIIIAAAAAAAATTTTTTTT {PIDAR  "+id+" ff "+rendererType);*//*
         }
 
-    }
+    }*/
 
 }

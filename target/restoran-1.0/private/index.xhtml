@@ -25,8 +25,17 @@
     </h:panelGroup>
     <h:panelGroup layout="block" styleClass="menu_2">
         <h1>Привет</h1>
+        <h:commandButton action="#{adminController.calcMoneyForCurrentMonth}" value="4len sobaki">
+            <f:ajax execute="@this" render="menulist sum"/>
+        </h:commandButton>
         <h:panelGroup layout="block" styleClass="hide-menu_2">
-            <p>kek</p>
+            <h:outputText value="Отчет текущего месяца"/>
+            <h:outputText id="sum" value="#{adminController.sum}"/>
+            <h:dataTable id="menulist" value="#{adminController.list}" var="dr" >
+                <h:column>
+                    <h:outputText value="#{dr}"/>
+                </h:column>
+            </h:dataTable>
         </h:panelGroup>
     </h:panelGroup>
     <h:panelGroup layout="block" styleClass="menu_3">

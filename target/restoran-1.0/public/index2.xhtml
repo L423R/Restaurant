@@ -1,105 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
-<head>
-    <title>Public Page</title>
-    <link rel="stylesheet" type="text/css" href="../resources/css/stylesN.css"/>
-</head>
-<body>
-<section id="menu-1">
-    <div class="block_1">
-        <div class="profile-logo">
-            <img src="../resources/img/favicon.ico" width="100px"
-                 height="100px "/>
-        </div>
-        <div class="profile-img">
-            <img src="../resources/img/profile.jpg" width="100px"
-                 height="100px "/>
-        </div>
-        <div class="profile-name">
-            <p><h:outputText value="#{userController.user.name}"/></p>
-            <a>Количество столов: <span>5</span></a>
-        </div>
-    </div>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ago="http://xmlns.jcp.org/jsf/composite/comp"
+      xml:lang="en" lang="en">
+<h:head>
+    <title>Keeper</title>
+    <h:outputStylesheet name="css/styles1.css" />
+    <h:outputScript name="js/jquery-3.2.1.min.js" />
+    <h:outputScript name="js/box-menu.js" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
 
-    <div class="block_2">
+</h:head>
+<h:body link="#ffffff" vlink="none" alink="none">
+    <h:panelGroup layout="block" styleClass="menu-1">
+        <h:panelGroup layout="block" styleClass="block_1">
+            <h:panelGroup layout="block" styleClass="profile-logo">
+                <h:graphicImage name="img/favicon.ico" width="100px" height="100px"/>
+            </h:panelGroup>
+            <h:panelGroup layout="block" styleClass="profile-img">
 
-        <ul class="nav">
-            <li id="eda_fon"><a >ЕДА</a>
-                <ul class="dropdown">
-                    <li class="peks"><a>bludo1</a></li>
-                    <li class="peks"><a>bludo2</a></li>
-                    <li class="peks"><a>bludo3</a></li>
-                </ul>
-            </li>
-            <li id="napitki_fon"><a>НАПИТКИ</a>
+            </h:panelGroup>
+            <h:panelGroup layout="block" styleClass="profile-name">
+                <p>RIS LOX</p>
+                <a>Количество столов: <span>5</span></a>
+            </h:panelGroup>
+        </h:panelGroup>
+
+        <h:panelGroup layout="block" styleClass="block_2 ">
+
+            <h:panelGroup layout="block">
                 <h:form>
-                    <ul class="dropdown">
-                        <li>
-                            <h:commandButton styleClass="left_menu_button" image="#{resource['img/icon.png']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Капучино')}">
-                                <f:ajax execute="" render="menulist sum"/>
-                            </h:commandButton>
-                        </li>
-                        <li>
-                            <h:commandButton styleClass="left_menu_button" image="#{resource['img/klybnika.jpg']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Эспрессо')}">
+                    <h:panelGroup layout="block" styleClass="menu_hookah">КАЛЬЯНЫ</h:panelGroup>
+                    <h:panelGroup layout="block" styleClass="container row menu_hookah__hide">
+                        <h:panelGroup layout="block" styleClass="peks menu_hookah__back">
+
+                        </h:panelGroup>
+                        <h:panelGroup layout="block" styleClass="menu_hookah__water">
+                            <h:commandButton styleClass="menu_hookah__water" action="#{userController.orderEJB.addIntoList('drink:Эспрессо')}">
                                 <f:ajax execute="@this" render="menulist sum"/>
                             </h:commandButton>
-                        </li>
-                        <li><a>ВОДКА</a></li>
-                    </ul>
+                        </h:panelGroup>
+                        <h:panelGroup layout="block">
+                            <h:commandButton styleClass="menu_hookah__milk"  action="#{userController.orderEJB.addIntoList('drink:Капучино')}">
+                                <f:ajax execute="@this" render="menulist sum"/>
+                            </h:commandButton>
+                        </h:panelGroup>
+                        <h:panelGroup layout="block" styleClass="menu_hookah__grape"></h:panelGroup>
+                    </h:panelGroup>
+
+                    <h:panelGroup layout="block" styleClass="menu_drinks">НАПИТКИ</h:panelGroup>
+                    <h:panelGroup layout="block" styleClass="container row menu_drinks__hide">
+                        <h:panelGroup layout="block" styleClass="menu_drinks__back"></h:panelGroup>
+                        <h:panelGroup layout="block" styleClass="menu_drinks__grape"></h:panelGroup>
+                    </h:panelGroup>
+                    <h:panelGroup layout="block" styleClass="menu_foods">ЕДА</h:panelGroup>
+                    <h:panelGroup layout="block" styleClass="container row menu_foods__hide">
+                        <h:panelGroup layout="block" styleClass="menu_foods__back"></h:panelGroup>
+                        <h:panelGroup layout="block" styleClass="menu_foods__grape"></h:panelGroup>
+                    </h:panelGroup>
                 </h:form>
-            </li>
-            <li id="hookah_fon"><a>КАЛЬЯН</a>
-                <ul class="dropdown">
-                    <li><a>НА ВОДЕ</a></li>
-                    <li><a>НА МОЛОКЕ</a></li>
-                    <li><a>НА СОКЕ</a></li>
-                    <li><a>ЗАМЕНА ЧАШИ</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+            </h:panelGroup>
+            <h:panelGroup layout="block" id="ggg" styleClass="nomer_zakaza">
+                <ago:myButton/>
+            </h:panelGroup>
+        </h:panelGroup>
+    </h:panelGroup>
+    <h:panelGroup layout="block" styleClass="menu-2">
+        <h:panelGroup layout="block" styleClass="nomer_spiska">
+            <p>KLIENT ID</p>
+        </h:panelGroup>
+        <h:panelGroup layout="block" styleClass="spisok_zakazov">
+            <h:panelGroup layout="block" styleClass="spisok_zakazov__container">
+                <h:panelGroup layout="block" styleClass="spisok_zakazov__kek">
+                    <h:dataTable id="menulist" value="#{userController.orderEJB.list}" var="dr" >
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="Название"/>
+                            </f:facet>
+                            <h:outputText value="#{dr}"/>
+                        </h:column>
+                    </h:dataTable>
+                </h:panelGroup>
+            </h:panelGroup>
 
+            <h:panelGroup layout="block" styleClass="itog">
+                <p class="spisok_zakazov__itog">ITOG:
+                    <h:outputText id="sum" value="#{userController.orderEJB.sum}"/>
+                </p>
+            </h:panelGroup>
+        </h:panelGroup>
 
-</section>
-<section id="menu-2">
-    <div class="nomer_spiska">
-        <p>KLIENT ID</p>
-    </div>
-    <div class="spisok_zakazov">
-        <h:dataTable id="menulist" value="#{userController.order.list}" var="dr" >
-            <h:column>
-                <f:facet name="header">
-                    <h:outputText value="Название"/>
-                </f:facet>
-                <h:outputText value="#{dr}"/>
-            </h:column>
-        </h:dataTable>
-        <div class="itog">
-            <p>ITOG: <h:outputText id="sum" value="#{userController.order.sum}"/></p>
-
-        </div>
-    </div>
-    <h:form>
-        <div class="button-oplatit">
-            <button class="oplata">
-                ГОТОВО(ОСТАВИТЬ ОТКРЫТЫМ)
-            </button>
-        </div>
-        <div class="button-oplatit">
-            <h:commandButton styleClass="oplata" value="ПРЕДЧЕК(СОХРАНИТЬ В БД)ЗАКРЫТЬ ЗАКАЗ" action="#{userController.order.saveSoldItems}">
-                <f:ajax execute="@this" render="menulist sum"/>
-            </h:commandButton>
-        </div>
-    </h:form>
-    <div>
-
-    </div>
-
-</section>
-
-</body>
+        <h:form id="forma1">
+            <c:if test="#{userController.orderEJB.stol == 0}">
+                <h:inputText id="text" value="#{userController.orderEJB.stol}" />
+            </c:if>
+            <h:panelGroup layout="block" styleClass="button-oplatit">
+                <h:commandButton styleClass="oplata oplata_ready" value="ОСТАВИТЬ ОТКРЫТЫМ" action="#{userController.orderEJB.leaveOpenOrder}">
+                    <f:ajax execute="@form" render="menulist sum text forma forma1 ggg"/>
+                </h:commandButton>
+            </h:panelGroup>
+            <h:panelGroup layout="block" styleClass="button-oplatit">
+                <h:commandButton styleClass="oplata oplata_ready" value="ГОТОВО(СОХРАНИТЬ В БД)" action="#{userController.orderEJB.saveSoldItems}">
+                    <f:ajax execute="@this" render="menulist sum"/>
+                </h:commandButton>
+            </h:panelGroup>
+        </h:form>
+    </h:panelGroup>
+</h:body>
 </html>

@@ -3,7 +3,6 @@
  * Created by Nguenchik on 15.10.2017.
  */
 $(window).on('load', function(){
-    var zalupoa = [];
     var hookaHide = (".menu_hookah__hide");
     var drinksHide = (".menu_drinks__hide");
     var foodsHide = (".menu_foods__hide");
@@ -23,7 +22,6 @@ $(window).on('load', function(){
             $('.menu_hookah').show()
     });
 
-    //kek
 
     $('.menu_drinks').on('click', function () {
         $(this).hide(),
@@ -35,7 +33,6 @@ $(window).on('load', function(){
             $('.menu_drinks').show()
     });
 
-    //kek
 
     $('.menu_foods').on('click', function () {
         $(this).hide(),
@@ -46,30 +43,6 @@ $(window).on('load', function(){
         $(foodsHide).hide(),
             $('.menu_foods').show()
     });
-
-
-     /*$('.menu_hookah__water').on('click', function () {
-         $('.spisok_zakazov__kek').append("<p>Кальян на воде</p>");
-
-     });
-
-     $('.menu_hookah__milk').on('click', function () {
-         $('.spisok_zakazov__kek').append("<p>Кальян на молоке</p> ");
-     });
-
-     $('menu_hookah__grape').on('click', function () {
-         $('.spisok_zakazov__kek').append("<p>Кальян на грейпфруте</p>");
-     });*/
-
-    /*$('.oplata_ready').on('click' , function () {
-        var money;
-        money = prompt("Вы уверены? (да или нет)");
-        if(money === 'да'){
-            document.location.href = "stols.html";
-        }else{
-            return 5;
-        }
-    });*/
 
 });
 

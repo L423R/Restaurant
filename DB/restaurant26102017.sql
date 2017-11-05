@@ -64,13 +64,13 @@ INSERT INTO `hookahs` VALUES ('Кальян какао',1350),('Кальян к�
 UNLOCK TABLES;
 
 --
--- Table structure for table `saled`
+-- Table structure for table `sold`
 --
 
-DROP TABLE IF EXISTS `saled`;
+DROP TABLE IF EXISTS `sold`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `saled` (
+CREATE TABLE `sold` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name_item` varchar(45) NOT NULL,
   `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -79,13 +79,13 @@ CREATE TABLE `saled` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `saled`
+-- Dumping data for table `sold`
 --
 
-LOCK TABLES `saled` WRITE;
-/*!40000 ALTER TABLE `saled` DISABLE KEYS */;
-INSERT INTO `saled` VALUES (8,'Эспрессо','2017-10-25 11:18:46'),(9,'Капучино','2017-10-25 11:18:46'),(10,'Эспрессо','2017-10-25 11:18:46'),(11,'Капучино','2017-10-25 11:18:46'),(12,'Капучино','2017-10-25 11:39:43'),(13,'Эспрессо','2017-10-25 11:39:43'),(14,'Капучино','2017-10-25 11:39:43'),(15,'Эспрессо','2017-10-25 11:39:43');
-/*!40000 ALTER TABLE `saled` ENABLE KEYS */;
+LOCK TABLES `sold` WRITE;
+/*!40000 ALTER TABLE `sold` DISABLE KEYS */;
+INSERT INTO `sold` VALUES (8,'Эспрессо','2017-10-25 11:18:46'),(9,'Капучино','2017-10-25 11:18:46'),(10,'Эспрессо','2017-10-25 11:18:46'),(11,'Капучино','2017-10-25 11:18:46'),(12,'Капучино','2017-10-25 11:39:43'),(13,'Эспрессо','2017-10-25 11:39:43'),(14,'Капучино','2017-10-25 11:39:43'),(15,'Эспрессо','2017-10-25 11:39:43');
+/*!40000 ALTER TABLE `sold` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --

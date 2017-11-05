@@ -36,12 +36,12 @@
             <div class="menu_hookah">КАЛЬЯНЫ</div>
             <div class="container row menu_hookah__hide">
                 <div class="peks menu_hookah__back">
-                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/icon.png']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Капучино')}">
+                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/icon.png']}" title="Кальяны" action="#{userController.orderEJB.addIntoList('drink:Капучино')}">
                         <f:ajax execute="" render="menulist sum"/>
                     </h:commandButton>
                 </div>
                 <div class="peks menu_hookah__water">
-                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/klybnika.jpg']}" title="Кальяны" action="#{userController.order.addIntoList('drink:Эспрессо')}">
+                    <h:commandButton styleClass="left_menu_button" image="#{resource['images/klybnika.jpg']}" title="Кальяны" action="#{userController.orderEJB.addIntoList('drink:Эспрессо')}">
                         <f:ajax execute="@this" render="menulist sum"/>
                     </h:commandButton>
                 </div>
@@ -75,7 +75,7 @@
 
         <div class="itog">
             <p class="spisok_zakazov__itog">ITOG:
-                <h:outputText id="sum" value="#{userController.order.sum}"/>
+                <h:outputText id="sum" value="#{userController.orderEJB.sum}"/>
             </p>
         </div>
     </div>

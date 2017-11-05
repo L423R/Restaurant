@@ -1,212 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
-<head>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:f="http://xmlns.jcp.org/jsf/core" xml:lang="en" lang="en">
+<h:head>
     <title>Keeper</title>
-    <!--<script src="../resources/js/jquery-3.2.1.min.js"/>
-    <script src="../resources/js/box-menu.js"/>-->
-    <h:outputScript name="js/jquery-3.2.1.min.js"/>
-    <h:outputScript name="js/box-menu.js"/>
-    <link rel="stylesheet" type="text/css" href="../resources/css/styles1.css"/>
+    <h:outputStylesheet name="css/styles1.css" />
+    <h:outputScript name="js/jquery-3.2.1.min.js" />
+    <h:outputScript name="js/box-menu.js" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
 
-    <!--<h:outputScript name="jsf.js" library="js" target="body"/>-->
-
-
-
-</head>
+</h:head>
 <h:body link="#ffffff" vlink="none" alink="none">
-<section id="menu-1">
-    <div class="block_1">
-        <div class="profile-logo">
-           <!-- <img src="../resources/img/favicon.ico" width="100px"
-                 height="100px "/>-->
-        </div>
-        <div class="profile-img">
-           <!-- <img src="../resources/img/" width="100px"
-                 height="100px "/>-->
-        </div>
-        <div class="profile-name">
-            <p>АЗИАТ ДРОЧИЛА</p>
-            <a>Количество столов: <span>5</span></a>
-        </div>
-    </div>
+    <h:panelGroup layout="block" styleClass="menu-1">
+        <h:panelGroup layout="block" styleClass="block_1">
+            <h:panelGroup layout="block" styleClass="profile-logo">
+                <h:graphicImage name="img/favicon.ico" width="100px" height="100px"/>
+            </h:panelGroup>
+            <h:panelGroup layout="block" styleClass="profile-img">
 
-    <div class="block_2 ">
+            </h:panelGroup>
+            <h:panelGroup layout="block" styleClass="profile-name">
+                <p>RIS LOX</p>
+                <a>Количество столов: <span>5</span></a>
+            </h:panelGroup>
+        </h:panelGroup>
 
-        <div>
-            <h:form>
-            <div class="menu_hookah">КАЛЬЯНЫ</div>
-            <div class="container row menu_hookah__hide">
-                <div class="peks menu_hookah__back">
+        <h:panelGroup layout="block" styleClass="block_2 ">
 
-                </div>
-                <div class="menu_hookah__water">
-                    <h:commandButton styleClass="menu_hookah__water" action="#{userController.order.addIntoList('drink:Эспрессо')}">
-                        <f:ajax execute="@this" render="menulist sum"/>
-                    </h:commandButton>
-                </div>
-                <div>
-                    <h:commandButton styleClass="menu_hookah__milk"  action="#{userController.order.addIntoList('drink:Капучино')}">
-                         <f:ajax execute="@this" render="menulist sum"/>
-                    </h:commandButton>
-                </div>
-                <div class="menu_hookah__grape"></div>
-            </div>
+            <h:panelGroup layout="block">
+                <h:form>
+                    <h:panelGroup layout="block" styleClass="menu_hookah">КАЛЬЯНЫ</h:panelGroup>
+                    <h:panelGroup layout="block" styleClass="container row menu_hookah__hide">
+                        <h:panelGroup layout="block" styleClass="peks menu_hookah__back">
 
-            <div class="menu_drinks">НАПИТКИ</div>
-            <div class="container row menu_drinks__hide">
-                <div class="menu_drinks__back"></div>
-                <div class="menu_drinks__grape"></div>
-            </div>
-            <div class="menu_foods">ЕДА</div>
-            <div class="container row menu_foods__hide">
-                <div class="menu_foods__back"></div>
-                <div class="menu_foods__grape"></div>
-            </div>
-            </h:form>
-        </div>
-        <div id="ggg" class="nomer_zakaza">
-            <h:form id="forma">
-                <h:panelGrid id="panel" columns="5">
-                    <c:if test="${userController.order.ddIndex() > 0}">
-                         <h:commandButton value="#{userController.order.setTextFroButton(0)}" action="#{userController.order.reloadOrder(0)}"  >
-                        <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                             <f:ajax execute="text" render="menulist sum text"/>
-                          </h:commandButton>
-                    </c:if>
+                        </h:panelGroup>
+                        <h:panelGroup layout="block" styleClass="menu_hookah__water">
+                            <h:commandButton styleClass="menu_hookah__water" action="#{orderEJB.addIntoList('drink:Эспрессо')}">
+                                <f:ajax execute="@this" render="menulist sum"/>
+                            </h:commandButton>
+                        </h:panelGroup>
+                        <h:panelGroup layout="block">
+                            <h:commandButton styleClass="menu_hookah__milk"  action="#{orderEJB.addIntoList('drink:Капучино')}">
+                                <f:ajax execute="@this" render="menulist sum"/>
+                            </h:commandButton>
+                        </h:panelGroup>
+                        <h:panelGroup layout="block" styleClass="menu_hookah__grape"></h:panelGroup>
+                    </h:panelGroup>
 
-                    <c:if test="${userController.order.ddIndex() > 1}">
-                        <h:commandButton value="#{userController.order.setTextFroButton(1)}" action="#{userController.order.reloadOrder(1)}"  >
-                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                            <f:ajax execute="text" render="menulist sum text"/>
-                        </h:commandButton>
-                    </c:if>
+                    <h:panelGroup layout="block" styleClass="menu_drinks">НАПИТКИ</h:panelGroup>
+                    <h:panelGroup layout="block" styleClass="container row menu_drinks__hide">
+                        <h:panelGroup layout="block" styleClass="menu_drinks__back"></h:panelGroup>
+                        <h:panelGroup layout="block" styleClass="menu_drinks__grape"></h:panelGroup>
+                    </h:panelGroup>
+                    <h:panelGroup layout="block" styleClass="menu_foods">ЕДА</h:panelGroup>
+                    <h:panelGroup layout="block" styleClass="container row menu_foods__hide">
+                        <h:panelGroup layout="block" styleClass="menu_foods__back"></h:panelGroup>
+                        <h:panelGroup layout="block" styleClass="menu_foods__grape"></h:panelGroup>
+                    </h:panelGroup>
+                </h:form>
+            </h:panelGroup>
+            <h:panelGroup layout="block" id="ggg" styleClass="nomer_zakaza">
+                <h:form id="forma">
+                    <h:panelGrid id="panel" columns="5">
+                        <c:if test="${orderEJB.ddIndex() > 0}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(0)}" action="#{orderEJB.reloadOrder(0)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum text forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-                    <c:if test="${userController.order.ddIndex() > 2}">
-                        <h:commandButton value="#{userController.order.setTextFroButton(2)}" action="#{userController.order.reloadOrder(2)}"  >
-                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                            <f:ajax execute="text" render="menulist sum text"/>
-                        </h:commandButton>
-                    </c:if>
+                        <c:if test="${orderEJB.ddIndex() > 1}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(1)}" action="#{orderEJB.reloadOrder(1)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-                    <c:if test="${userController.order.ddIndex() > 3}">
-                        <h:commandButton value="#{userController.order.setTextFroButton(3)}" action="#{userController.order.reloadOrder(3)}"  >
-                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                            <f:ajax execute="text" render="menulist sum text"/>
-                        </h:commandButton>
-                    </c:if>
+                        <c:if test="${orderEJB.ddIndex() > 2}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(2)}" action="#{orderEJB.reloadOrder(2)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-                    <c:if test="${userController.order.ddIndex() > 4}">
-                        <h:commandButton value="#{userController.order.setTextFroButton(4)}" action="#{userController.order.reloadOrder(4)}"  >
-                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                            <f:ajax execute="text" render="menulist sum text"/>
-                        </h:commandButton>
-                    </c:if>
+                        <c:if test="${orderEJB.ddIndex() > 3}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(3)}" action="#{orderEJB.reloadOrder(3)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-                    <c:if test="${userController.order.ddIndex() > 5}">
-                        <h:commandButton value="#{userController.order.setTextFroButton(5)}" action="#{userController.order.reloadOrder(5)}"  >
-                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                            <f:ajax execute="text" render="menulist sum text"/>
-                        </h:commandButton>
-                    </c:if>
+                        <c:if test="${orderEJB.ddIndex() > 4}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(4)}" action="#{orderEJB.reloadOrder(4)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-                    <c:if test="${userController.order.ddIndex() > 6}">
-                        <h:commandButton value="#{userController.order.setTextFroButton(6)}" action="#{userController.order.reloadOrder(6)}"  >
-                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                            <f:ajax execute="text" render="menulist sum text"/>
-                        </h:commandButton>
-                    </c:if>
+                        <c:if test="${orderEJB.ddIndex() > 5}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(5)}" action="#{orderEJB.reloadOrder(5)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-                    <c:if test="${userController.order.ddIndex() > 7}">
-                        <h:commandButton value="#{userController.order.setTextFroButton(7)}" action="#{userController.order.reloadOrder(7)}"  >
-                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                            <f:ajax execute="text" render="menulist sum text"/>
-                        </h:commandButton>
-                    </c:if>
+                        <c:if test="${orderEJB.ddIndex() > 6}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(6)}" action="#{orderEJB.reloadOrder(6)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-                    <c:if test="${userController.order.ddIndex() > 8}">
-                        <h:commandButton value="#{userController.order.setTextFroButton(8)}" action="#{userController.order.reloadOrder(8)}"  >
-                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                            <f:ajax execute="text" render="menulist sum text"/>
-                        </h:commandButton>
-                    </c:if>
+                        <c:if test="${orderEJB.ddIndex() > 7}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(7)}" action="#{orderEJB.reloadOrder(7)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-                    <c:if test="${userController.order.ddIndex() > 9}">
-                        <h:commandButton value="#{userController.order.setTextFroButton(9)}" action="#{userController.order.reloadOrder(9)}"  >
-                            <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
-                            <f:ajax execute="text" render="menulist sum text"/>
-                        </h:commandButton>
-                    </c:if>
+                        <c:if test="${orderEJB.ddIndex() > 8}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(8)}" action="#{orderEJB.reloadOrder(8)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-                </h:panelGrid>
-            </h:form>
-        </div>
-    </div>
-</section>
-<section id="menu-2">
-<div class="nomer_spiska">
-    <p>KLIENT ID</p>
-</div>
-<div class="spisok_zakazov">
-    <div class="spisok_zakazov__container">
-        <div class="spisok_zakazov__kek">
-            <!--<div class="koks">
-                <p>CLICK HERE</p>
-                <div class="table_nomer">
-                    <div class="stol-1">1</div>
-                    <div class="stol-2">2</div>
-                    <div>3</div>
-                    <div>4</div>
-                    <div>5</div>
-                    <div>6</div>
-                    <div>7</div>
-                    <div>8</div>
-                    <div>9</div>
-                </div>
-            </div>-->
-           <!-- <div>
-                <h:inputText id="text" value="#{userController.order.stol}" />
-            </div>-->
-            <h:dataTable id="menulist" value="#{userController.order.list}" var="dr" >
-                <h:column>
-                    <f:facet name="header">
-                        <h:outputText value="Название"/>
-                    </f:facet>
-                    <h:outputText value="#{dr}"/>
-                </h:column>
-            </h:dataTable>
-        </div>
-    </div>
+                        <c:if test="${orderEJB.ddIndex() > 9}">
+                            <h:commandButton value="#{orderEJB.setTextFroButton(9)}" action="#{orderEJB.reloadOrder(9)}"  >
+                                <!--<f:actionListener type="com.kncorp.project.UserController"/>-->
+                                <f:ajax execute="text" render="menulist sum forma1"/>
+                            </h:commandButton>
+                        </c:if>
 
-    <div class="itog">
-        <p class="spisok_zakazov__itog">ITOG:
-            <h:outputText id="sum" value="#{userController.order.sum}"/>
-        </p>
-    </div>
-</div>
+                    </h:panelGrid>
+                </h:form>
+            </h:panelGroup>
+        </h:panelGroup>
+    </h:panelGroup>
+    <h:panelGroup layout="block" styleClass="menu-2">
+        <h:panelGroup layout="block" styleClass="nomer_spiska">
+            <p>KLIENT ID</p>
+        </h:panelGroup>
+        <h:panelGroup layout="block" styleClass="spisok_zakazov">
+            <h:panelGroup layout="block" styleClass="spisok_zakazov__container">
+                <h:panelGroup layout="block" styleClass="spisok_zakazov__kek">
+                    <h:dataTable id="menulist" value="#{orderEJB.list}" var="dr" >
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="Название"/>
+                            </f:facet>
+                            <h:outputText value="#{dr}"/>
+                        </h:column>
+                    </h:dataTable>
+                </h:panelGroup>
+            </h:panelGroup>
 
-<h:form>
-    <c:if test="#{userController.order.stol == 0}">
-        <h:inputText id="text" value="#{userController.order.stol}" />
-    </c:if>
-    <div class="button-oplatit">
-        <h:commandButton styleClass="oplata oplata_ready" value="ОСТАВИТЬ ОТКРЫТЫМ" action="#{userController.order.leaveOpenOrder}" onclick="asd(text.value())">
-            <f:ajax execute="@form" render="menulist sum text"/>
-        </h:commandButton>
-    </div>
-    <div class="button-oplatit">
-        <h:commandButton styleClass="oplata oplata_ready" value="ГОТОВО(СОХРАНИТЬ В БД)" action="#{userController.order.saveSoldItems}">
-            <f:ajax execute="@this" render="menulist sum"/>
-        </h:commandButton>
-    </div>
-</h:form>
-</section>
-<section class="fon-stol">
-</section>
+            <h:panelGroup layout="block" styleClass="itog">
+                <p class="spisok_zakazov__itog">ITOG:
+                    <h:outputText id="sum" value="#{orderEJB.sum}"/>
+                </p>
+            </h:panelGroup>
+        </h:panelGroup>
+
+        <h:form id="forma1">
+            <c:if test="#{orderEJB.stol == 0}">
+                <h:inputText id="text" value="#{orderEJB.stol}" />
+            </c:if>
+            <h:panelGroup layout="block" styleClass="button-oplatit">
+                <h:commandButton styleClass="oplata oplata_ready" value="ОСТАВИТЬ ОТКРЫТЫМ" action="#{orderEJB.leaveOpenOrder}">
+                    <f:ajax execute="@form" render="menulist sum text forma forma1"/>
+                </h:commandButton>
+            </h:panelGroup>
+            <h:panelGroup layout="block" styleClass="button-oplatit">
+                <h:commandButton styleClass="oplata oplata_ready" value="ГОТОВО(СОХРАНИТЬ В БД)" action="#{orderEJB.saveSoldItems}">
+                    <f:ajax execute="@this" render="menulist sum"/>
+                </h:commandButton>
+            </h:panelGroup>
+        </h:form>
+    </h:panelGroup>
 </h:body>
 </html>

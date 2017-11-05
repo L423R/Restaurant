@@ -7,105 +7,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7541c4a9-27b1-44ca-ae1c-ad1e9edbead8" name="Default" comment="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;css/styles1.css&#10;#&#9;src/main/webapp/resources/css/admin.css&#10;#&#9;src/main/webapp/resources/css/styles1.css&#10;#&#9;src/main/webapp/resources/js/admin.js&#10;#&#9;src/main/webapp/resources/js/box-menu.js">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/ALAH.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/Drink.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/DrinkEJB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/Hookah.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/HookahEJB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/Item.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/MainController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/Order.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/Saled.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/SaledEJB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/UserEJB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/ALAH.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/Drink.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/DrinkEJB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/Hookah.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/HookahEJB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/Item.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/MainController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/Order.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/Saled.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/SaledEJB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/UserController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/UserEJB.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/lib/javax.json-1.0.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/lib/javax.persistence-2.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/lib/org.eclipse.persistence.antlr-2.6.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/lib/org.eclipse.persistence.asm-2.6.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/lib/org.eclipse.persistence.core-2.6.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/lib/org.eclipse.persistence.jpa-2.6.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/lib/org.eclipse.persistence.jpa.jpql-2.6.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/css/styles1.css~HEAD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/HD Wallpaper Computer Wallpapers Desktop Backgrounds  2560x1600  ID ....jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/fon.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/foods.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/green_lemon_juice-wallpaper-1600x900.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/hookah.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/hookah3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/jMxPoDK-hookah-wallpaper.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/klybnika.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/stols.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/strawberry_splash_2-wallpaper-1366x768.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/water.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/боке1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/перчик.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/js/box-menu.js~HEAD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/webapp.rar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/index2.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/beans.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/faces-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/glassfish-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/login.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/private/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/public/index.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/public/index1.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/public/index2.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/public/main.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/public/stols.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/css/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/css/block.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/css/styles1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/js/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/js/box-menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/js/jquery-3.2.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/js/jsf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/js/table_order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/kncorp/project/AdminController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/comp/myButton.xhtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/kncorp/project/MainController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/kncorp/project/ALAH.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/kncorp/project/MainController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/kncorp/project/Saled.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/kncorp/project/SaledEJB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/ALAH.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/MainController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/Saled.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/SaledEJB.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/css/styles1.css~HEAD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/css/stylesN.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/berries_in_basket_macro-wallpaper-1366x768.jpg~HEAD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/berries_in_basket_macro-wallpaper-1366x768.jpg~HEAD_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/berries_in_basket_macro-wallpaper-1366x768.jpg~origin_ng" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/berries_in_basket_macro-wallpaper-1366x768.jpg~origin_ng_0" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/favicon.ico~HEAD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/favicon.ico~HEAD_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/favicon.ico~origin_ng" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/favicon.ico~origin_ng_0" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/hookah2.jpg~HEAD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/hookah2.jpg~HEAD_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/hookah2.jpg~origin_ng" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/hookah2.jpg~origin_ng_0" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/profile.jpg~HEAD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/profile.jpg~HEAD_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/profile.jpg~origin_ng" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/profile.jpg~origin_ng_0" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg~HEAD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg~HEAD_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg~origin_ng" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg~origin_ng_0" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/whisky_ice_cigar-wallpaper-1366x768.jpg~HEAD" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles1.css" afterPath="$PROJECT_DIR$/css/styles1.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/whisky_ice_cigar-wallpaper-1366x768.jpg~HEAD_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/whisky_ice_cigar-wallpaper-1366x768.jpg~origin_ng" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/img/whisky_ice_cigar-wallpaper-1366x768.jpg~origin_ng_0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/js/box-menu.js~HEAD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/js/table_order.js~HEAD" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kncorp/project/DrinkEJB.class" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/DrinkEJB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kncorp/project/HookahEJB.class" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/HookahEJB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kncorp/project/Order.class" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/kncorp/project/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/kncorp/project/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/DrinkEJB.class" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/DrinkEJB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/HookahEJB.class" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/HookahEJB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/Order.class" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/UserController.class" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/com/kncorp/project/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/restaurant26102017.sql" afterPath="$PROJECT_DIR$/DB/restaurant26102017.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kncorp/project/DrinkEJB.java" afterPath="$PROJECT_DIR$/src/main/java/com/kncorp/project/DrinkEJB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kncorp/project/HookahEJB.java" afterPath="$PROJECT_DIR$/src/main/java/com/kncorp/project/HookahEJB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/kncorp/project/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/kncorp/project/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index1.html" afterPath="$PROJECT_DIR$/src/main/webapp/index1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/private/index.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/private/index.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/index.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/public/index.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/index1.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/public/index1.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/admin.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/index2.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/public/index2.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/styles1.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/styles1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/admin.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/admin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/box-menu.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/box-menu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/berries_in_basket_macro-wallpaper-1366x768.jpg~HEAD" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/berries_in_basket_macro-wallpaper-1366x768.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/favicon.ico~HEAD" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/hookah2.jpg~HEAD" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/hookah2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/profile.jpg~HEAD" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/profile.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg~HEAD" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/vino_vinograd_napitok_bochka_fuzhery_butylka_70927_3840x2400.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/img/whisky_ice_cigar-wallpaper-1366x768.jpg~HEAD" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/img/whisky_ice_cigar-wallpaper-1366x768.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/classes/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/restoran-1.0/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/private/index.xhtml" afterPath="$PROJECT_DIR$/target/restoran-1.0/private/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/public/index.xhtml" afterPath="$PROJECT_DIR$/target/restoran-1.0/public/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/public/index1.xhtml" afterPath="$PROJECT_DIR$/target/restoran-1.0/public/index1.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/public/index2.xhtml" afterPath="$PROJECT_DIR$/target/restoran-1.0/public/index2.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/css/admin.css" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/css/admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/css/styles.css" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/css/styles1.css" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/css/styles1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/restoran-1.0/resources/js/box-menu.js" afterPath="$PROJECT_DIR$/target/restoran-1.0/resources/js/box-menu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kncorp/project/ALAH.java" afterPath="$PROJECT_DIR$/src/main/java/com/kncorp/project/Order.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kncorp/project/Order.java" afterPath="$PROJECT_DIR$/src/main/java/com/kncorp/project/OrderEJB.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kncorp/project/Saled.java" afterPath="$PROJECT_DIR$/src/main/java/com/kncorp/project/Sold.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/kncorp/project/SaledEJB.java" afterPath="$PROJECT_DIR$/src/main/java/com/kncorp/project/SoldEJB.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -150,28 +129,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Order.java">
+      <file leaf-file-name="OrderEJB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/OrderEJB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="93" column="31" lean-forward="false" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+            <state relative-caret-position="119">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index1.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index1.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="194" column="8" lean-forward="false" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
-              <folding />
+      <file leaf-file-name="saled" pinned="false" current-in-tab="false">
+        <entry file="das://table:/862e6c10/ce56b069-a2ab-4390-a39d-5bba457ca976/kekjek.saled">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/styles1.css">
+      <file leaf-file-name="drinks" pinned="false" current-in-tab="false">
+        <entry file="das://table:/862e6c10/ce56b069-a2ab-4390-a39d-5bba457ca976/kekjek.drinks">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -180,51 +167,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="box-menu.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/box-menu.js">
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-229">
+              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index.xhtml">
+      <file leaf-file-name="DrinkEJB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/DrinkEJB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="201" column="7" lean-forward="false" selection-start-line="201" selection-start-column="7" selection-end-line="201" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/private/index.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index2.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1273">
-              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -240,12 +199,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/styles1.css">
+      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/private/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="476">
+              <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoldEJB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/SoldEJB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="36" column="135" lean-forward="false" selection-start-line="36" selection-start-column="135" selection-end-line="36" selection-end-column="135" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sold.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Sold.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,12 +238,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="XHTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="XHTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userCont</find>
+      <find>block</find>
+      <find>oplata</find>
+      <find>bord</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -286,20 +277,29 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/javax/faces/jsf.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/public/main.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/ALAH.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/Order.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/jsf.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/private/index.xhtml" />
         <option value="$PROJECT_DIR$/css/styles1.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/public/index1.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/public/index.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/public/index2.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/styles1.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/box-menu.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/admin.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/admin.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/box-menu.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/index1.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/comp/myButton.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/index2.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/OrderEJB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/Sold.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/styles1.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/DrinkEJB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/HookahEJB.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/private/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kncorp/project/SoldEJB.java" />
       </list>
     </option>
   </component>
@@ -324,7 +324,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="833" />
+    <option name="x" value="-7" />
     <option name="width" value="854" />
     <option name="height" value="1017" />
   </component>
@@ -343,9 +343,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -432,7 +429,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="comp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
@@ -441,7 +438,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
@@ -473,7 +470,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,7 +509,9 @@
   </component>
   <component name="RunManager" selected="GlassFish Server.GlassFish 4.1.2">
     <configuration name="GlassFish 4.1.2" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.2" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/restoran-1.0/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Restaurant:war exploded">
           <settings />
@@ -679,7 +681,8 @@
       <workItem from="1509359603773" duration="22476000" />
       <workItem from="1509549456284" duration="1859000" />
       <workItem from="1509627000402" duration="12440000" />
-      <workItem from="1509661682087" duration="696000" />
+      <workItem from="1509661682087" duration="25816000" />
+      <workItem from="1509805788006" duration="2002000" />
     </task>
     <task id="LOCAL-00001" summary="26102017 add sql dumb">
       <created>1509020265105</created>
@@ -730,14 +733,22 @@
       <option name="project" value="LOCAL" />
       <updated>1509653569764</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;css/styles1.css&#10;#&#9;src/main/webapp/resources/css/admin.css&#10;#&#9;src/main/webapp/resources/css/styles1.css&#10;#&#9;src/main/webapp/resources/js/admin.js&#10;#&#9;src/main/webapp/resources/js/box-menu.js">
+      <created>1509662425682</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1509662425683</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82907000" />
+    <option name="totallyTimeSpent" value="110029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -746,23 +757,22 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823962" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32701713" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3022472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3011236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1680929" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3502445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -771,8 +781,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,110 +825,16 @@
     <MESSAGE value="31 10 2017 stol &lt;body/&gt; != &lt;h:body/&gt;" />
     <MESSAGE value="01 10 2017 stol &lt;body/&gt; != &lt;h:body/&gt; or...." />
     <MESSAGE value="02 11 2017 POBEDA AJAX OWNED" />
-    <option name="LAST_COMMIT_MESSAGE" value="02 11 2017 POBEDA AJAX OWNED" />
+    <MESSAGE value="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;css/styles1.css&#10;#&#9;src/main/webapp/resources/css/admin.css&#10;#&#9;src/main/webapp/resources/css/styles1.css&#10;#&#9;src/main/webapp/resources/js/admin.js&#10;#&#9;src/main/webapp/resources/js/box-menu.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;css/styles1.css&#10;#&#9;src/main/webapp/resources/css/admin.css&#10;#&#9;src/main/webapp/resources/css/styles1.css&#10;#&#9;src/main/webapp/resources/js/admin.js&#10;#&#9;src/main/webapp/resources/js/box-menu.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="69" column="15" lean-forward="false" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/862e6c10/ce56b069-a2ab-4390-a39d-5bba457ca976/kekjek.hookahs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="17" lean-forward="true" selection-start-line="85" selection-start-column="7" selection-end-line="96" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/stylesN.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/main.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="68" lean-forward="false" selection-start-line="74" selection-start-column="68" selection-end-line="74" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Saled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="14" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="84" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/MainController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -966,48 +883,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/javax/faces/jsf.js" />
-    <entry file="das://table:/862e6c10/ce56b069-a2ab-4390-a39d-5bba457ca976/kekjek.saled">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Saled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-web.xml">
-      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
       <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
         <state />
@@ -1026,47 +901,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/ALAH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="58" column="7" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="58" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#496#497#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#592#593#0" expanded="false" />
-            <element signature="e#625#626#0" expanded="false" />
-            <element signature="e#681#682#0" expanded="false" />
-            <element signature="e#798#799#0" expanded="false" />
-            <element signature="e#825#826#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jsf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,57 +915,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/public/main.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="38" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="43" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles1.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/box-menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="578">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/UserEJB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Order.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="93" column="31" lean-forward="false" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/glassfish-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.glassfish.editor.GlassfishWebRootProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index1.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="194" column="8" lean-forward="false" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
+        <state relative-caret-position="657">
+          <caret line="98" column="66" lean-forward="false" selection-start-line="98" selection-start-column="66" selection-end-line="98" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/private/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2599#2600#0" expanded="false" />
+            <element signature="e#2639#2640#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index2.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="103" column="86" lean-forward="false" selection-start-line="103" selection-start-column="86" selection-end-line="103" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/comp/myButton.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/styles1.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style_stols.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style_form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/HookahEJB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="207" column="1" lean-forward="false" selection-start-line="207" selection-start-column="1" selection-end-line="207" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="158" column="34" lean-forward="true" selection-start-line="151" selection-start-column="20" selection-end-line="158" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/862e6c10/ce56b069-a2ab-4390-a39d-5bba457ca976/kekjek.drinks">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/862e6c10/ce56b069-a2ab-4390-a39d-5bba457ca976/kekjek.saled">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1139,35 +1115,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index2.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/private/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/OrderEJB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="201" column="7" lean-forward="false" selection-start-line="201" selection-start-column="7" selection-end-line="201" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/admin.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/Sold.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="612">
+          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/DrinkEJB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/box-menu.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/SoldEJB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="36" column="135" lean-forward="false" selection-start-line="36" selection-start-column="135" selection-end-line="36" selection-end-column="135" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kncorp/project/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
